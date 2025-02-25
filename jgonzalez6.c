@@ -31,8 +31,8 @@ int main(void)
 	printf("\nThe value of dx is %lf, and the value of dy is %lf\n",dx, dy);
 	printf("With the result being double,\n");
 	printf("dx+dy*dx/dy-dx=%lf\n",da);
-        printf("-dx-dy/dx*dy+dx=%lf\n",db);
-        printf("dx+dy-dx/dy=%lf\n",dc);
+	printf("-dx-dy/dx*dy+dx=%lf\n",db);
+	printf("dx+dy-dx/dy=%lf\n",dc);
 	
 	return EXIT_SUCCESS;
 }
