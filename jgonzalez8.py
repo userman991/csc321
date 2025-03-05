@@ -1,4 +1,5 @@
 #Jovanny Gonzalez
+#CSC321-40
 
 import random
 
