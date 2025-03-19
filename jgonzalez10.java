@@ -1,5 +1,5 @@
 //Jovanny Gonzalez
-////CSC321-40
+//CSC321-40
 
 import java.util.Scanner;
 public class jgonzalez10{
