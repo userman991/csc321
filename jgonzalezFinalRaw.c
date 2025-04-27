@@ -194,6 +194,11 @@ int main(int argc, char *argv[])
 
 void jovannyFunction(int jovannyNum)
 {
+	//Unique Feature is here.
+	//I am making an Array which can hold multiple strings, emotions
+	//[Max number of strings],[Max length of each individual string]
+	//joName is just a single string;
+	//based on how well you did, you recieve an emotion as a score.
 	char jovannyArray[7][11] = {"sad", "satisfied", "happy"};
 	char joName[30] = "null";
 
@@ -202,16 +207,16 @@ void jovannyFunction(int jovannyNum)
 
 	if(jovannyNum<3)
 	{                                        	        
-		printf("You are feeling %s...\n", jovannyArray[0]);
+		printf("You and child bear are feeling %s...\n", jovannyArray[0]);
 	}
 
 	if(jovannyNum<6&&jovannyNum>3)
 	{
-                printf("You are feeling %s.\n", jovannyArray[1]);
+                printf("You and child bear are feeling %s.\n", jovannyArray[1]);
 	}
 	if(jovannyNum>=6)
 	{
-                printf("You are feeling %s!\n", jovannyArray[2]);
+                printf("You and child bear are feeling %s!\n", jovannyArray[2]);
 	}
 	        
                 printf("You have completed room42! Returning...\n");
