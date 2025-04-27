@@ -7,7 +7,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 
-//void jovannyFunction(void);
+
 void jovannyFunction(int jovannyNum);
 int main(int argc, char *argv[])
 {
@@ -94,10 +94,10 @@ int main(int argc, char *argv[])
                                                 
 							room42Choice=0;
 
-							//strength test
-							//while int jovanny i<4
-							//go to the function
-							//generate a random num        
+						
+							
+						
+							      
 							printf("%s: I'll climb your tree.\n",name);
                                                         printf("(You are given a random number. Based on that number, you will climb or fail)\n");
 							int jovannyRandomNum=1+(rand()%11);
@@ -107,7 +107,7 @@ int main(int argc, char *argv[])
 								printf("(+2 fruit)\n");
 								room42Fruit+=2;
 								printf("(You currently have %d fruit)\n", room42Fruit);
-								//proceed
+								
 							}
 							else
 							{
@@ -130,7 +130,7 @@ int main(int argc, char *argv[])
 					printf("(You come across a strange man.)\n");
 					printf("(seems to be a Wizard based on the clothes)\n");
                                         printf("Wizard: Hello traveler, I can take you to your destination in exchange of 1 fruit, do you accept?\n");
-					//latest
+					
 
 					printf("Option 1:yes, Option 2:no.)\n");
 					printf("Enter Option:");
@@ -159,7 +159,7 @@ int main(int argc, char *argv[])
                                 printf("(Let's see how you did. We are passing the fruit basket)\n");                
 				printf("(You currently have %d fruit)\n", room42Fruit);
 				jovannyFunction(room42Fruit);
-				//present
+				
 
 
 
@@ -170,7 +170,7 @@ int main(int argc, char *argv[])
                                         printf("%s: I wish I could but I gotta go! I forgot something somewhere else...\n",name);
                                 }
 
-                                //jovannyFunction();
+                                
                                 break;
                         }
 
